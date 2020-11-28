@@ -1,5 +1,5 @@
 
-### Blogger
+# Blogger
 
 ## Ruby on Rails
 Part of the reason Ruby on Rails became popular quickly is that it takes a lot of the hard work off your hands, and that’s especially true in starting up a project. Rails practices the idea of "sensible defaults" and will, with one command, create a working application ready for your customization.
@@ -7,7 +7,7 @@ Part of the reason Ruby on Rails became popular quickly is that it takes a lot o
 - This is the second application for the Microverse Ruby on Rails curriculum module
 - [Original Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) from JumpstartLab
 
-# In this project we create a simple blog system and learn the basics of Ruby on Rails including:
+### In this project we create a simple blog system and learn the basics of Ruby on Rails including:
 
 - Models, Views, and Controllers (MVC)
 - Data Structures & Relationships
