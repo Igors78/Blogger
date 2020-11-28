@@ -1,11 +1,23 @@
 
-### Ruby on Rails Tutorial
+### Blogger
 
-## "Toy_app"
+## Ruby on Rails
+Part of the reason Ruby on Rails became popular quickly is that it takes a lot of the hard work off your hands, and that’s especially true in starting up a project. Rails practices the idea of "sensible defaults" and will, with one command, create a working application ready for your customization.
 
-- This is the second application for the
-[*Ruby on Rails Tutorial*](https://www.railstutorial.org/)
-by [Michael Hartl](https://www.michaelhartl.com/). Toy_app!
+- This is the second application for the Microverse Ruby on Rails curriculum module
+- [Original Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) from JumpstartLab
+
+# In this project we create a simple blog system and learn the basics of Ruby on Rails including:
+
+- Models, Views, and Controllers (MVC)
+- Data Structures & Relationships
+- Routing
+- Migrations
+- Views with forms, partials, and helpers
+- RESTful design
+- Adding gems for extra features
+
+
 
 ![screenshot](screenshot.png)
 
@@ -33,15 +45,15 @@ To get a local copy up and running follow these simple example steps.
 ## Install
 
 - Go to your preferred directory
-- Run `git clone https://github.com/Igors78/Toy_app.git` command
+- Run `git clone https://github.com/Igors78/Blogger.git` command
 - Install Rails with all dependencies in order to run local server and app in it:
-`install Rails`
-`bundle install`
+- `install Rails`
+- `bundle install`
 
 ## Usage
 
 - Go to respective directory and run
-`rails server`
+- `rails server`
 - Open LOCALHOST:3000 in your browser
 
 
@@ -72,6 +84,7 @@ Give a ⭐️ if you like this project!
 - Ruby documentation
 - [Ruby Guides](https://www.rubyguides.com/)
 - [Michael Hartl](https://www.michaelhartl.com/)
+- [JumpstartLab](http://tutorials.jumpstartlab.com/projects/blogger.html)
 
 ## 📝 License
 
