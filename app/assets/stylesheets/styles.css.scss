@@ -1,0 +1,50 @@
+$primary_color: rgb(226, 220, 220);
+
+body {
+  background-color: $primary_color;
+  font: {
+    family: Verdana, Helvetica, Arial;
+    size: 14px;
+  }
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+  &:hover{
+      color: black;
+  }
+  img {
+    border: none;
+  }
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: rgba(173, 170, 170, 0.781);
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+#content {
+  clear: both;
+  padding-top: 20px;
+}
+
+.internal-link {
+    display: inline-block;
+    color: grey;
+    
+    padding: 5px 10px;
+    border: 1px solid rgb(221, 214, 214);
+border-radius: 15px;
+background: blanchedalmond;
+}

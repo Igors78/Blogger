@@ -5,6 +5,6 @@
     <li><%= link_to article.title, article_path(article) %></li>
   <% end %>
 </ul><br/>
-<%= link_to "Delete", tag_path(@tag), method: :delete, data: { confirm: "Really delete the tag?" } %><br/><br/>
-<%= link_to "<< Back to Articles List", articles_path %><br/>
-<%= link_to "<< Back to Tags List", tags_path %><br/>
+<%= link_to "Delete", tag_path(@tag), class: "internal-link", method: :delete, data: { confirm: "Really delete the tag?" } %><br/><br/>
+<%= link_to "<< Back to Articles List", articles_path, class: "internal-link" %><br/>
+<%= link_to "<< Back to Tags List", tags_path, class: "internal-link" %><br/>
