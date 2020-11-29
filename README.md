@@ -23,7 +23,7 @@ Part of the reason Ruby on Rails became popular quickly is that it takes a lot o
 
 ## Getting Started
 
-- This app is functional micropost blog with possibility to create, edit, update and delete users and their microposts (micro in this case means it must contain less then 140 symbols in it). App is connected to database accordingly.
+- This app is functional micropost blog with possibility to create, edit, update and delete authors and their articles, add comments,tags and images to articles. To access full functionality, user should log in, if account exists, or create one as new author. App is connected to database accordingly.
 
 ## Live Demo
 
