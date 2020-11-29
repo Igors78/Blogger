@@ -15,7 +15,11 @@ Tags:
 <p><%= @article.body %></p><br/>
 <h3>Comments (<%= @article.comments.size %>)</h3>
 <%= render partial: "articles/comment", collection: @article.comments %>
+<% if logged_in? %>
 <%= render partial: "comments/form" %><br/>
-<%= link_to "<< Back to Articles List", articles_path, class: "internal-link" %><br/>
+
+
 <%= link_to "Edit", edit_article_path(@article), class: "internal-link" %><br/>
 <%= link_to "Delete", article_path(@article), class: "internal-link", method: :delete, data: { confirm: "Really delete the article?" } %>
+<% end %>
+<%= link_to "<< Back to Articles List", articles_path, class: "internal-link" %><br/>

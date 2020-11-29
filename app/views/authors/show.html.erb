@@ -11,6 +11,7 @@
 </p>
 
 
-
+<% if logged_in? %>
 <%= link_to "Edit", edit_author_path(@author), class: "internal-link" %><br/>
+<% end %>
 <%= link_to "Back", authors_path, class: "internal-link" %>

@@ -147,6 +147,7 @@ h1 {
   font-family: "Yanone Kaffeesatz", sans;
 }
 html {
+  
   background: #626b6a6b;
   -moz-background-size: 80px 80px;
   -webkit-background-size: 80px 80px;
@@ -190,7 +191,7 @@ body {
   background: #fff;
   margin: 50px auto 30px;
   color: #2d4159;
-  padding: 20px;
+  padding: 50px;
   width: 85%;
   min-width: 600px;
   max-width: 1250px;

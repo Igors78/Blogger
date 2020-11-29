@@ -8,5 +8,8 @@
   <% end %>
 </ul>
 <br/>
+<% if logged_in? %>
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
-<%= link_to "<< TAGS", tags_path, class: "internal-link" %><br/>
+<% end %>
+<%= link_to "Tags", tags_path, class: "internal-link" %><br/>
+<%= link_to "Authors", authors_path, class: "internal-link" %>

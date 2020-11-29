@@ -3,11 +3,13 @@
 <h1>Authors</h1>
 
 <table>
+
   <thead>
     <tr>
-      <th>Username</th>
-      <th>Email</th>
-      
+    <% if @authors.size.positive? %>
+      <th>Username  </th>
+      <th>  Email</th>
+      <% end %>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -19,8 +21,10 @@
         <td><%= author.email %></td>
         
         <td><%= link_to "Show", author, class: "internal-link" %></td>
+        <% if logged_in? %>
         <td><%= link_to "Edit", edit_author_path(author), class: "internal-link" %></td>
         <td><%= link_to "Destroy", author, class: "internal-link", method: :delete, data: { confirm: "Are you sure?" } %></td>
+<% end %>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +32,5 @@
 
 <br>
 
-<%= link_to "New Author", new_author_path %>
+<%= link_to "New Author", new_author_path, class: "internal-link" %>
+<%= link_to "<< Back to Articles List", articles_path, class: "internal-link" %><br/>
