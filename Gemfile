@@ -59,6 +59,6 @@ gem 'paperclip'
 gem 'sorcery'
 
 group :production do
-# Use pg as the database for Active Record
-gem 'pg', '~> 1.2', '>= 1.2.3'
+  # Use pg as the database for Active Record
+  gem 'pg', '~> 1.2', '>= 1.2.3'
 end
