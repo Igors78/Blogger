@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AuthorsController < ApplicationController
   before_action :set_author, only: %i[show edit update destroy]
   before_action :zero_authors_or_authenticated, only: %i[new create]
@@ -73,7 +75,7 @@ class AuthorsController < ApplicationController
   end
 
   def zero_authors_or_authenticated
-    unless Author.count == 0 || current_user
+    unless Author.count.zero? || current_user
       redirect_to root_path
       false
     end
