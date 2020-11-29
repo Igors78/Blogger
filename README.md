@@ -27,7 +27,7 @@ Part of the reason Ruby on Rails became popular quickly is that it takes a lot o
 
 ## Live Demo
 
-[Live Demo Link](https://rocky-anchorage-36714.herokuapp.com/)
+[Live Demo Link](https://intense-beach-67874.herokuapp.com/)
 
 ## On your Computer
 
