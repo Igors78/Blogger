@@ -2,7 +2,7 @@
 
 class AuthorsController < ApplicationController
   before_action :set_author, only: %i[show edit update destroy]
-  before_action :zero_authors_or_authenticated, only: %i[new create]
+
   before_action :require_login, except: %i[new create index show]
   # GET /authors
   # GET /authors.json
