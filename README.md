@@ -1,13 +1,13 @@
-
 # Blogger
 
 ## Ruby on Rails
+
 Part of the reason Ruby on Rails became popular quickly is that it takes a lot of the hard work off your hands, and that’s especially true in starting up a project. Rails practices the idea of "sensible defaults" and will, with one command, create a working application ready for your customization.
 
 - This is the second application for the Microverse Ruby on Rails curriculum module
 - [Original Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) from JumpstartLab
 
-### In this project we create a simple blog system and learn the basics of Ruby on Rails including:
+### In this project we create a simple blog system and learn the basics of Ruby on Rails including
 
 - Models, Views, and Controllers (MVC)
 - Data Structures & Relationships
@@ -16,8 +16,6 @@ Part of the reason Ruby on Rails became popular quickly is that it takes a lot o
 - Views with forms, partials, and helpers
 - RESTful design
 - Adding gems for extra features
-
-
 
 ![screenshot](screenshot.gif)
 
@@ -56,16 +54,17 @@ To get a local copy up and running follow these simple example steps.
 - `rails server`
 - Open LOCALHOST:3000 in your browser
 
-
-
 ## Built with
 
 - Ruby 2.7.0
 - Ruby on Rails 6.0.3.4
+- CSS/SCSS
 
 ## Author
 
 👤 **Igors Oleinikovs**
+
+![Image](https://avatars0.githubusercontent.com/u/66903652?s=460&u=aed2a1ceb1a28a8e65287d2d8bd556700d42ae2f&v=4)
 
 - GitHub: [@githubhandle](https://github.com/Igors78)
 - Twitter: [@twitterhandle](https://twitter.com/oleinikovs)
