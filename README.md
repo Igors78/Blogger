@@ -64,8 +64,6 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Igors Oleinikovs**
 
-![Image](https://avatars0.githubusercontent.com/u/66903652?s=460&u=aed2a1ceb1a28a8e65287d2d8bd556700d42ae2f&v=4)
-
 - GitHub: [@githubhandle](https://github.com/Igors78)
 - Twitter: [@twitterhandle](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
